@@ -1,0 +1,30 @@
+Satyam Bindre,CSE,1,480000,560000;
+Alok Tripathi,CSE,1,18000,100000;
+Charan Sagar,CSE,0,10000,500000;
+Sonali Sinha,CSE,0,9000,125000;
+Tripti Kapoor,CSE,0,9000,125000;
+/\
+Rahul Vohra,ISE,0,9000,150000;
+Laxmikanth Swathi,ISE,0,21000,150000;
+Mrinal Kunchan,ISE,1,17000,105000;
+Pradeep Raghav,ISE,1,15000,105000;
+Rohit Satya,ISE,0,23000,135000;
+/\
+Meera Raghavan,IOT,0,20000,900000;
+Suresh Krishnan,IOT,0,22000,105000;
+Swathi Patel,IOT,1,22000,105000;
+Rohit Iyer,IOT,0,16000,165000;
+Aishwarya Prasad,IOT,1,22000,150000;
+/\
+Sanjay Pillai,ECE,0,23000,900000;
+Nithya Chandra,ECE,1,21000,900000;
+Karthik Balan,ECE,0,21000,120000;
+Deepa Nair,ECE,1,15000,105000;
+Anand Menon,ECE,1,19000,900000;
+/\
+Sneha Verma,AIDS,1,16000,120000;
+Vikram Reddy,AIDS,0,20000,120000;
+Prakash Choudhary,AIDS,0,20000,105000;
+Harish Nair,AIDS,0,21000,900000;
+Priya Suresh,AIDS,1,19000,120000;
+/\

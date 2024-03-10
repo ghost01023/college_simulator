@@ -1,0 +1,3 @@
+C:/Users/Rosja Dostoyevsjky/CLionProjects/CollegeSimulator/cmake-build-debug-mingw_gtk4/CMakeFiles/CollegeSimulator.dir
+C:/Users/Rosja Dostoyevsjky/CLionProjects/CollegeSimulator/cmake-build-debug-mingw_gtk4/CMakeFiles/edit_cache.dir
+C:/Users/Rosja Dostoyevsjky/CLionProjects/CollegeSimulator/cmake-build-debug-mingw_gtk4/CMakeFiles/rebuild_cache.dir

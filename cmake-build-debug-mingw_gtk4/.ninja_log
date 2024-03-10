@@ -1,0 +1,5 @@
+# ninja log v5
+4	194	7302090701294505	build.ninja	fd3e979e7cec2333
+10	410	7298672658513778	CMakeFiles/CollegeSimulator.dir/main.c.obj	6d7f469b02006b82
+466	587	7298708372119455	CollegeSimulator.exe	10b1d63971b2c210
+5	466	7298708370980292	CMakeFiles/CollegeSimulator.dir/gtk.c.obj	afdf48bf5b303869
