@@ -68,31 +68,32 @@ void printDateTime(GameTime gTime) {
     *(months + 10) = "November";
     *(months + 11) = "December";
     char *hour, *minute, *second;
-    hour = (char *)malloc(5* sizeof(char));
-    minute = (char *)malloc(5* sizeof(char));
-    second = (char *)malloc(5* sizeof(char));
-    char *dtChar = (char *) malloc(sizeof(char) * 5);
-    printf("OK");
+    hour = (char *)malloc(5 * sizeof(char));
+    minute = (char *)malloc(5 * sizeof(char));
+    second = (char *)malloc(5 * sizeof(char));
+    char *dtChar = (char *)malloc(sizeof(char) * 5);
+    printf("OK\n");
     if (gTime.hour < 10) {
         itoa(gTime.hour, dtChar, 10);
-        hour = "\0";
         printf("%s", dtChar);
+        strcpy(hour, "0\0");
         strcat(hour, dtChar);
     } else {
         strcpy(hour, dtChar);
     }
     if (gTime.minute < 10) {
         itoa(gTime.minute, dtChar, 10);
-        minute = "0\0";
+        strcpy(minute, "0\0");
         strcat(minute, dtChar);
     } else {
         strcpy(minute, dtChar);
     }
     if (gTime.second < 10) {
         itoa(gTime.second, dtChar, 10);
-        second = "0\0";
+        strcpy(second, "0\0");
         strcat(second, dtChar);
     } else {
+        second = "\0";
         strcpy(second, dtChar);
     }
     printf("%d %s, %d | %d:%s:%s\t", gTime.day,

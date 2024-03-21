@@ -23,7 +23,6 @@ SaveData loadSaveData() {
     SaveData temp;
     GameTime GT;
     //INIT MONTH NAMES
-
     FILE *saveFile = fopen(saveFileLoc, "r");
     //FIRST LINE REGARDING FINANCES
     char Finances[100];
@@ -35,61 +34,62 @@ SaveData loadSaveData() {
         while(Finances[i] != ',') {
             cFunds[it++] = Finances[i++];
         }
-        cFunds[it] = '\0';
+        strcat(cFunds, "\0");
         i++;
         it = 0;
         while(Finances[i] != ',') {
             health[it++] = Finances[i++];
         }
-        health[it] = '\0';
+        strcat(health, "\0");
         it = 0;
         i++;
         while(Finances[i] != ',') {
             loans[it++] = Finances[i++];
         }
-        loans[it] = '\0';
+        strcat(loans, "\0");
         it = 0;
         i++;
         while(Finances[i] != ',') {
             pFunds[it++] = Finances[i++];
         }
-        pFunds[it] = '\0';
+        strcat(pFunds, "\0");
         it = 0;
         i++;
         while(Finances[i] != '-') {
             tYear[it++] = Finances[i++];
         }
-        tYear[it] = '\0';
+        strcat(tYear, "\0");
         it = 0;
         i++;
         while(Finances[i] != '-') {
             tMonth[it++] = Finances[i++];
         }
-        tMonth[it] = '\0';
+        strcat(tMonth, "\0");
         it = 0;
         i++;
         while(Finances[i] != '-') {
             tDay[it++] = Finances[i++];
         }
-        tDay[it] = '\0';
+        strcat(tDay, "\0");
         it = 0;
         i++;
         while(Finances[i] != '-') {
             tHour[it++] = Finances[i++];
         }
-        tHour[it] = '\0';
+        strcat(tHour, "\0");
         it = 0;
         i++;
         while(Finances[i] != '-') {
             tMinute[it++] = Finances[i++];
         }
-        tMinute[it] = '\0';
+        strcat(tMinute, "\0");
         it = 0;
         i++;
         while(Finances[i] != ';') {
             tSecond[it++] = Finances[i++];
         }
-        tSecond[it] = '\0';
+        strcat(tSecond, "\0");
+        printf("Opened properly");
         int year = atoi(tYear);
         int month = atoi(tMonth);
         int day = atoi(tDay);
@@ -103,6 +103,7 @@ SaveData loadSaveData() {
         GT.minute = minute;
         GT.second = second;
         temp.gameTime = GT;
+//        printf("%d-%d-%d-%d-%d-%d", year, month, day, hour, minute, second);
         int personalFunds = atoi(pFunds);
         int healthInt = atoi(health);
         int loansInt = atoi(loans);

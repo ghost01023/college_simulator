@@ -21,6 +21,11 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
+			"path" : "C:/My Apps/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeMinGWFindMake.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
 			"path" : "C:/My Apps/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake"
 		},
 		{
@@ -305,6 +310,21 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
+			"path" : "C:/My Apps/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeFindCodeBlocks.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/My Apps/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/My Apps/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.27/Modules/ProcessorCount.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
 			"path" : "C:/My Apps/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake"
 		},
 		{
@@ -434,13 +454,28 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "C:/My Apps/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C-ABI.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/My Apps/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.27/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/My Apps/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/My Apps/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.27/Modules/FindPackageMessage.cmake"
 		}
 	],
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "C:/Users/Rosja Dostoyevsjky/CLionProjects/CollegeSimulator/cmake-build-debug",
-		"source" : "C:/Users/Rosja Dostoyevsjky/CLionProjects/CollegeSimulator"
+		"build" : "C:/Users/Rosja Dostoyevsjky/Desktop/college_simulator/cmake-build-debug",
+		"source" : "C:/Users/Rosja Dostoyevsjky/Desktop/college_simulator"
 	},
 	"version" : 
 	{

@@ -1,14 +1,14 @@
 #include<time.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include "polynomial.h"
-#include "library.h"
-#include "game_save.h"
-#include "admission_q.h"
-#include "all_students.h"
-#include "teachers.h"
-#include "game_time.h"
-#include "hud.h"
+#include "./polynomial.h"
+#include "./library.h"
+#include "./game_save.h"
+#include "./admission_q.h"
+#include "./all_students.h"
+#include "./teachers.h"
+#include "./game_time.h"
+#include "./hud.h"
 
 //CONSTANT POINTERS TO VARIOUS TYPES OF DATABASES MODELLING DIFFERENT ASPECTS
 //OF THE COLLEGE

@@ -48,7 +48,7 @@ void renderHUD(TeachersDLL tDLL, Student studNode, Library libData,
     printf("DATE: ");
     printDateTime(gTime);
     printf("\t\t\t");
-    printf("HEALTH: %d", sData.health);
+//    printf("HEALTH: %d", sData.health);
     printf("\n");
     bool teacherPayPending = false;
     for (int i = 0; i < 5; i++) {
